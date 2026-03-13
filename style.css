@@ -1,4 +1,50 @@
 body{
     background-color: #FFFFFF;
     text-align: center;
+    color: black;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.container div{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Heading{
+    grid-column: span 3;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+  
+.navbar ul li {
+    float: left;
+}
+  
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar li a:hover {
+    background-color: #111111;
+}
+

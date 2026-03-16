@@ -6,7 +6,7 @@ body{
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     background-color: dodgerblue;
     padding: 10px;
@@ -15,13 +15,25 @@ body{
 .container div{
     background-color: #f1f1f1;
     border: 1px solid black;
-    padding: 10px;
     font-size: 30px;
     text-align: center;
+    max-height: 300px;
+    width: auto;
 }
 
-.Heading{
-    grid-column: span 3;
+.bandImage{
+    margin: 10px;
+}
+
+.bandImage img{
+    max-height: 300px;
+    width: 100%;
+}
+
+
+.bandDescription{
+    grid-column: span 2;
+    margin: 10px;
 }
 
 .navbar ul {

@@ -2,6 +2,7 @@ body{
     background-color: #FFFFFF;
     text-align: center;
     color: black;
+    min-width: 350px;
 }
 
 .container {
@@ -17,17 +18,31 @@ body{
     border: 1px solid black;
     font-size: 30px;
     text-align: center;
-    max-height: 300px;
+    max-height: 500px;
     width: auto;
 }
 
 .bandImage{
     margin: 10px;
+    align-self: center;
 }
 
-.bandImage img{
-    max-height: 300px;
-    width: 100%;
+@media screen and (max-width: 700px) {
+    .bandImage img{
+        max-height: 200px;
+        width: auto;
+        margin: 10px;
+    }
+
+    body h1{
+        font-size: 1em;
+    }
+}
+
+
+
+main{
+    margin: 20px;
 }
 
 
@@ -59,4 +74,3 @@ body{
 .navbar li a:hover {
     background-color: #111111;
 }
-

@@ -87,6 +87,16 @@ main{
     margin: 10px;
 }
 
+.mySlides {
+    display: none;
+    animation: fade 0.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;

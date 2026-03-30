@@ -1,135 +1,148 @@
-body{
-    background-color: #FFFFFF;
-    text-align: center;
-    color: black;
-    min-width: 350px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+  background-color: #1c5d99;
+  text-align: center;
+  color: white;
+  min-width: 350px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.navbar #Current{
-    background-color: #FE7F2D;
+.navbar #Current {
+  background-color: #fe7f2d;
+  border-radius: 5px;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  padding: 10px;
 }
 
-.container div{
-    font-size: 30px;
-    text-align: center;
-    max-height: 500px;
-    width: auto;
+.container div {
+  font-size: 30px;
+  text-align: center;
+  max-height: 500px;
+  width: auto;
 }
 
-.bandImage{
-    margin: 10px;
-    align-self: center;
-    object-fit: cover;
-    height: 328px;
-    width: 328px;
-    border-radius: 5px;
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
+.bandImage {
+  margin: 10px;
+  align-self: center;
+  object-fit: cover;
+  height: 328px;
+  width: 328px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
 }
 
 @media screen and (max-width: 700px) {
-    .bandImage img{
-        max-height: 200px;
-        width: auto;
-        margin: 10px;
-    }
+  .bandImage img {
+    max-height: 200px;
+    width: auto;
+    margin: 10px;
+  }
 
-    body h1{
-        font-size: 1em;
-    }
+  body h1 {
+    font-size: 1em;
+  }
 }
 
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-  
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-  }
-  
-
-.prev{
-    left: -50px;
+  background-color: rgba(254, 127, 45, 0.8);
+  color: white;
 }
 
-.next{
-    right: -50px;
+.prev {
+  left: -50px;
 }
 
-main{
-    margin: 20px;
+.next {
+  right: -50px;
 }
 
+main {
+  margin: 20px;
+}
 
-.bandDescription{
-    grid-column: span 2;
-    margin: 10px;
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
-    border-radius: 5px;
+.bandDescription {
+  grid-column: span 2;
+  margin: 10px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
 }
 
 .mySlides {
-    display: none;
-    animation: fade 0.5s;
+  display: none;
+  animation: fade 0.5s;
 }
 
 @keyframes fade {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #222222;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
 }
-  
-.navbar ul li {
-    float: left;
-}
-  
+
 .navbar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
 }
-  
+
 .navbar li a:hover {
-    background-color: #111111;
+  background-color: #c57b57;
+  color: white;
 }

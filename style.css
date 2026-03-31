@@ -154,10 +154,29 @@ main {
 }
 
 .formatsCss div{
-    border-width: 3px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: white;
     padding: 10px;
     text-align: center;
+    margin: 10px;
+}
+
+.formatsImage img{
+  border-width: 3px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+}
+
+.formatsImageVinyl img{
+  border-width: 3px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  scale: 0.5;
+}
+
+.formatsDescription{
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
 }

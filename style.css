@@ -166,17 +166,10 @@ main {
   border-color: white;
 }
 
-.formatsImageVinyl img{
-  border-width: 3px;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: white;
-  scale: 0.5;
-}
-
 .formatsDescription{
   border-width: 3px;
   border-radius: 5px;
   border-style: solid;
   border-color: white;
+  max-width: 500px;
 }

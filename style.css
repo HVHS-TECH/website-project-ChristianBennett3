@@ -155,9 +155,9 @@ main {
 }
 
 .formatsCss div{
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
 }
 
 .formatsImage img{
@@ -186,4 +186,17 @@ button{
   font-size: 20px;
   width: 150px;
   height: 50px;
+}
+
+
+.storesCss{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.storesCss div{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
 }

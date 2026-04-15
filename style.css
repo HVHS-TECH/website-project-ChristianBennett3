@@ -176,5 +176,6 @@ main {
 }
 
 button{
-  color: red;
+  background-color: #fe7f2d;
+  border-radius: 5px;
 }

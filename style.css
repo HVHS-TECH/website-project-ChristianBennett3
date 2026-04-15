@@ -177,5 +177,11 @@ main {
 
 button{
   background-color: #fe7f2d;
+  border-style: solid;
+  border-width: 3px;
   border-radius: 5px;
+  border-color: white;
+  color: white;
+  width: 150px;
+  height: 50px;
 }

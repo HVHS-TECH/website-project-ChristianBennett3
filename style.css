@@ -6,8 +6,9 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.navbar #Current {
+.navbar #Current a {
   background-color: #fe7f2d;
+  color: white;
   border-radius: 5px;
 }
 

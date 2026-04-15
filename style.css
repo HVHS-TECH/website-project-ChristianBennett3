@@ -174,3 +174,7 @@ main {
   border-color: white;
   max-width: 500px;
 }
+
+button{
+  color: red;
+}

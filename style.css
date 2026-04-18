@@ -63,7 +63,7 @@ body {
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -100px;
+  margin-top: -700px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -141,6 +141,7 @@ main {
   border-color: black;
   border-style: solid;
   border-width: 2px;
+  transition: 0.6s ease;
 }
 
 .navbar li a:hover {
@@ -175,20 +176,6 @@ main {
   max-width: 500px;
 }
 
-button{
-  background-color: #fe7f2d;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 5px;
-  border-color: white;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
-  width: 150px;
-  height: 50px;
-}
-
-
 .storesCss{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -208,4 +195,22 @@ button{
 .storeImg2 img{
   max-height: 250px;
   width: auto;
+}
+
+button{
+  background-color: #fe7f2d;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  transition: 0.6s ease;
+}
+
+button:hover{
+  background-color: #c57b57;
 }

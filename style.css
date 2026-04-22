@@ -179,7 +179,7 @@ main {
 }
 
 .storesCss{
-    display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10px;
 }
@@ -219,7 +219,7 @@ button:hover{
 
 .storesPageCss{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   padding: 10px;
   max-width: 1000px;
   margin: auto;  

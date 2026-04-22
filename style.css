@@ -101,6 +101,10 @@ main {
   border-radius: 5px;
 }
 
+.bandDescription p{
+  font-size: smaller;
+}
+
 .mySlides {
   display: none;
   animation: fade 0.5s;
@@ -176,6 +180,7 @@ main {
   border-style: solid;
   border-color: white;
   max-width: 500px;
+  height: 150px;
 }
 
 .storesCss{
@@ -187,7 +192,8 @@ main {
 }
 
 .storesCss div{
-  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   margin: 10px;
 }

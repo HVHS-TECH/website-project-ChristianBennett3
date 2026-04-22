@@ -180,12 +180,12 @@ main {
 
 .storesCss{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   padding: 10px;
 }
 
 .storesCss div{
-  padding: 10px;
+  padding: 0px;
   text-align: center;
   margin: 10px;
   border-style: solid;
@@ -197,6 +197,9 @@ main {
 .storeImg2 img{
   max-height: 250px;
   width: auto;
+  border-radius: 50%;  border-style: solid;
+  border-width: 3px;
+  border-color: white;
 }
 
 button{
@@ -278,4 +281,40 @@ button:hover{
 
 hr{
   max-width: 1000px;
+}
+
+.formatsPageCss{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.formatsPageCss div{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+.formatsPageImage img{
+  border-width: 3px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+}
+
+.formatsPageDescription{
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  max-width: 500px;
+}
+
+.formatsPageContent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
 }

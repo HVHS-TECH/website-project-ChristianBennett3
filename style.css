@@ -180,8 +180,8 @@ main {
 
 .storesCss{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
 }
 
 .storesCss div{
@@ -226,13 +226,9 @@ button:hover{
 }
 
 .storesPageCss div{
-  padding: 10px;
+  padding: 0px;
   text-align: center;
   margin: 10px;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 5px;
-  border-color: white;
 }
 
 .artistsPageCss{
@@ -245,6 +241,7 @@ button:hover{
 }
 
 .artistsPageCss div{
+  max-height: 350px;
   padding: 10px;
   text-align: center;
   margin: 10px;
@@ -263,4 +260,22 @@ button:hover{
   border-style: solid;
   border-color: white;
   max-width: 500px;
+}
+
+.storesPageCss img{
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+}
+
+.storePageDescription{
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+hr{
+  max-width: 1000px;
 }

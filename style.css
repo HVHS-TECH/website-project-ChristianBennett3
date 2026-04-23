@@ -219,24 +219,6 @@ main {
   border-color: white;
 }
 
-button{
-  background-color: #fe7f2d;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 5px;
-  border-color: white;
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
-  width: 150px;
-  height: 50px;
-  transition: 0.6s ease;
-}
-
-button:hover{
-  background-color: #c57b57;
-}
-
 .storesPageCss{
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -254,7 +236,7 @@ button:hover{
 .artistsPageCss{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 630px 630px;
+  grid-template-rows: 660px 660px;
   padding: 10px;
   max-width: 1000px;
   margin: auto;
@@ -281,6 +263,7 @@ button:hover{
   border-style: solid;
   border-color: white;
   max-width: 500px;
+  height: 250px;
 }
 
 .storesPageCss img{
@@ -335,4 +318,34 @@ hr{
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     align-items: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fe7f2d;
+  color: white;
+  text-decoration: none;
+  background-color: #fe7f2d;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  border-color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  width: 120px;
+  height: 25px;
+  transition: 0.6s ease;
+}
+
+.button:hover{
+  background-color: #c57b57;
+}
+
+.formatsPageDescription .button{
+  font-size: large;
+}
+
+.artistsPageDescription .button{
+  font-size: large;
 }

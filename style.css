@@ -254,7 +254,7 @@ button:hover{
 .artistsPageCss{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 570px 570px;
+  grid-template-rows: 630px 630px;
   padding: 10px;
   max-width: 1000px;
   margin: auto;
